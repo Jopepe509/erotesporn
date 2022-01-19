@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+ul{
+    list-style: none;
+}
+.cabecalho{
+    width: 85%;
+    height: 100px;
+    border-bottom: 2px solid black;
+}
+.logo img{
+    width: 150px;
+    height: 100px;
+    margin-top: -2px;
+}
+.pesquisa input{
+    margin-left: 300px;
+    padding: 10px;
+    width: 300px;
+    margin-top: -70px;
+    float: left;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+.pesquisa button{
+    width: 50px;
+    height: 42px;
+    float: left;
+    margin-left: 601px;
+    margin-top: -70px;
+    background-color: black;
+    cursor: pointer;
+}
+.pesquisa button img{
+    width: 30px;
+    height: 30px;
+}
+.p{
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    text-transform: uppercase;
+    margin-left: 400px;
+    float: left;
+    width: 150px;
+    margin-top: -30px;
+    border-radius: 25%;
+}
+.popupbutton{
+    background: transparent;
+    color: black;
+    font-size: 20px;
+    width: 100px;
+    font-family: cursive;
+    float: right;
+    margin-right: 300px;
+    margin-top: -90px;
+    border: none;
+    cursor: pointer;
+}
+.popupbutton img{
+    margin-left: 50px;
+    width: 40px;
+    height: 40px;
+}
+.popup-wrapper {
+    display: none;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.pop{
+    color: white;
+    height: 400px;
+    float: left;
+    width: 400px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-right: white 3px solid;
+}
+.pop input{
+    padding: 10px;
+    width: 300px;
+    font-family: serif;
+    font-size: 20px;
+}
+.pop a{
+    margin-left: 200px;
+    color: white;
+}
+.pop h1{
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+.pop h2{
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-left: 10px;
+    border-bottom: 3px solid white;
+}
+.pop button{
+    width: 300px;
+    height: 50px;
+    margin-left: 13px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.pop button:hover{
+    background-color: red;
+    color: black;
+}
+.popup-close {
+    color: white;
+    float: right;
+    margin-right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.popup{
+    font-family: serif;
+    width: 900px;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 250px;
+    background-image: url(https://64.media.tumblr.com/e5484f5018c252b43d847d57225093bf/tumblr_nfmktck9jv1u2vuf4o1_250.gifv);
+}
+.precadastro{
+    margin-left: 400px;
+    width: 400px;
+    margin-top: -350px;
+}
+.precadastro h1{
+    font-size: 25px;
+}
+.precadastro p{
+    font-size: 17px;
+}
+.precadastro ul{
+    list-style: none;
+}
+.precadastro button{
+    margin-left: 100px;
+}
+.precadastro li img{
+    width: 30px;
+    height: 30px;
+}
+.menu-principal{
+    margin-top: -5px;
+    height: 40px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+.menu {
+    margin-left: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    font-family: cursive;
+}
+.menu ul{
+    padding: 0;
+    margin-left: 20px;
+    width: 1200px;
+}
+.menu ul li img{
+    width: 14px;
+    height: 14px;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 10px;
+}
+.menu li:hover{
+    border-bottom: 2px solid goldenrod;
+}
+.escolha img{
+    width: 20px;
+    height: 20px;
+}
+.escolha {
+    float: right;
+    margin-right: 40px;
+    font-size: 15px;
+    font-family: cursive;
+    text-transform: uppercase;
+    margin-top: -80px;
+}
+.escolha a{
+    text-decoration: none;
+    color: black;
+    width: 70px;
+}
+.escolha ul li ul{
+    visibility: hidden;
+}
+.escolha ul li:hover ul{
+    visibility: visible;
+}
+.escolha ul li ul{
+    margin-left: -40px;
+    text-align: center;
+}
+.escolha ul li ul a:hover{
+    border-bottom: 3px solid gold;
+}
+.propaganda{
+    float: right;
+    width: 200px;
+    margin-right: 100px;
+}
+.propaganda img{
+    width: 300px;
+    height: 250px;
+    margin-top: 5px;
+}

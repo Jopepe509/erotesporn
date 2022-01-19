@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://64.media.tumblr.com/4f9ccdd874ef80702ef7f6cc3529cc76/tumblr_pi849kTqjT1v9gtfxo1_500.gifv);
+}
+.back img{
+    width: 70px;
+    height: 70px;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+.p{
+    color: white;
+    font-size: 15px;
+    font-family: cursive;
+    text-transform: uppercase;
+    margin-left: 400px;
+    float: left;
+    width: 150px;
+    margin-top: -30px;
+    border-radius: 25%;
+}
+.popupbutton{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    width: 100px;
+    font-family: cursive;
+    float: right;
+    margin-right: 300px;
+    margin-top: -90px;
+    border: none;
+    cursor: pointer;
+}
+.popupbutton img{
+    width: 40px;
+    height: 40px;
+}
+.popup-wrapper {
+    display: none;
+    background-color: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.pop{
+    color: white;
+    height: 400px;
+    float: left;
+    width: 400px;
+    margin-left: 270px;
+    margin-top: 100px;
+    border-right: white 3px solid;
+}
+.pop input{
+    padding: 10px;
+    width: 300px;
+    font-family: serif;
+    font-size: 20px;
+}
+.pop a{
+    margin-left: 200px;
+    color: white;
+}
+.pop h1{
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+.pop h2{
+    text-transform: uppercase;
+    font-family: cursive;
+    margin-left: 10px;
+    border-bottom: 3px solid white;
+}
+.pop button{
+    width: 300px;
+    height: 50px;
+    margin-left: 13px;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.pop button:hover{
+    background-color: red;
+    color: black;
+}
+.popup-close {
+    float: right;
+    margin-right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.popup{
+    font-family: serif;
+    width: 900px;
+    height: 500px;
+    margin-top: 60px;
+    margin-left: 250px;
+    background-image: url(../img/wallpaper-2.jpg);
+}
+.precadastro{
+    text-align: center;
+    margin-left: 400px;
+    width: 500px;
+    margin-top: -350px;
+}
+.precadastro h1{
+    font-size: 25px;
+}
+.precadastro p{
+    font-size: 20px;
+}
+.precadastro ul{
+    list-style: none;
+}
+.precadastro button{
+    margin-left: 100px;
+}
+.precadastro li img{
+    width: 30px;
+    height: 30px;
+}
+.precadastro button{
+    margin-top: 10px;
+    float: left;
+    margin-left: 150px;
+}
+.nome h1{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
