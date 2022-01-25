@@ -322,3 +322,12 @@ ul{
     background-color: red;
     color: black;
 }
+.legal a{
+    color: white;
+    margin-left: 50px;
+}
+.legal{
+    float: left;
+    margin-left: 230px;
+    margin-top: 40px;
+}

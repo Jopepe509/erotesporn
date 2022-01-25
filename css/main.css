@@ -225,7 +225,99 @@ ul{
     height: 250px;
     margin-top: 5px;
 }
-.boquete-slider video{
-    width: 400px;
+.videos1 img{
+    width: 300px;
+}
+.videos1 ul{
+    list-style: none;
+}
+.videos1 li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.videos1 a{
+    text-decoration: none;
+    color: black;
+}
+.videos1 p{
+    font-size: 17px;
+    font-family: cursive;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.videos2{
+    width:1200px;
+}
+.videos2 img{
+    width: 300px;
+}
+.videos2 ul{
+    list-style: none;
+}
+.videos2 li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.videos2 a{
+    text-decoration: none;
+    color: black;
+}
+.videos2 p{
+    font-size: 17px;
+    font-family: cursive;
+    margin-top: -20px;
+    margin-left: 30px;
+}
+.rodape{
+    background-color: black;
+    color: white;
+    height: 410px;
+}
+.anuncio{
+    float: left;
+    width: 200px;
+    margin-left: 50px;
+}
+.anuncio img{
+    width: 200px;
     height: 200px;
+}
+.anuncio2{
+    float: right;
+    width: 200px;
+    margin-right: 50px;
+}
+.anuncio2 img{
+    width: 200px;
+    height: 200px;
+}
+.fala h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: cursive;
+}
+.fala p{
+    font-size: 20px;
+    text-align: center;
+}
+.fala button{
+    padding: 10px;
+    margin-left: 220px;
+    border-radius: 5%;
+    cursor: pointer;
+    font-family: cursive;
+}
+.fala button:hover{
+    background-color: red;
+    color: black;
+}
+.legal a{
+    color: white;
+    margin-left: 50px;
+}
+.legal{
+    float: left;
+    margin-left: 230px;
+    margin-top: 40px;
 }

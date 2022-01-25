@@ -15,3 +15,12 @@ let selectEl = document.getElementsByTagName('select');
 selectEl[0].addEventListener('change', function() {
     location.href=this.value;
 });
+var figure = $(".videos1").hover( hoverVideo, hideVideo );
+
+function hoverVideo(e) {  
+    $('video', this).get(0).play(); 
+}
+
+function hideVideo(e) {
+    $('video', this).get(0).pause(); 
+}
