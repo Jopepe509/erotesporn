@@ -1,0 +1,94 @@
+.slider{
+    width: 78%;
+    margin-top: -15px;
+    opacity: 30%;
+    position: relative;
+}
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 120%;
+
+    animation: cambio 20s infinite alternate linear;
+}  
+.slider img{
+    height: 632px;
+}
+.slider li{
+    list-style: none;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -200%;}
+}
+.home img{
+    width: 20px;
+    height: 20px;
+}
+.home{
+    float: left;
+    margin-left: 50px;
+    margin-top: -630px;
+    position: absolute;
+}
+.home a{
+    font-size: 25px;
+    font-family: cursive;
+    text-decoration: none;
+    color: black;
+}
+.formulario{
+    width: 400px;
+    margin-left: 500px;
+    margin-top: -610px;
+    position: absolute;
+}
+.formulario button{
+    cursor: pointer;
+    margin-top: 10px;
+    width: 200px;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 17px;
+    margin-left: 120px;
+}
+.formulario button:hover{
+    background-color: goldenrod;
+    color: black;
+}
+.formulario p{
+    font-size: 12px;
+    text-align: center;
+}
+.formulario h1{
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    text-transform: uppercase;
+    text-align: center;
+}
+.formulario input{
+    background: transparent;
+    font-size: 17px;
+    width: 400px;
+    padding: 10px;
+}
+.formulario textarea{
+    font-size: 17px;
+    width: 420px;
+    background: transparent;
+}
+.formulario label{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: cursive;
+}

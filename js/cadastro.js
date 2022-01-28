@@ -19,3 +19,6 @@ function idade(){
     alert("Você é menor mano então sai antes que eu ligue pros seus pais")
   }
 }
+function cadastro() {
+  alert("Obrigado pela sua inscrição!")
+}

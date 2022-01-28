@@ -24,3 +24,9 @@ function hoverVideo(e) {
 function hideVideo(e) {
     $('video', this).get(0).pause(); 
 }
+function thanks() {
+    alert("Sua mensagem foi enviada e recebida com sucesso");
+}
+function contato() {
+    alert("Sua mensagem foi enviada e recebida com sucesso");
+}
